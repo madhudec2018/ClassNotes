@@ -1,0 +1,27 @@
+Git ---
+
+Version Control System -->
+
+10 developers --
+
+save the code write -- local machine 
+
+manage the code -- [commit/check-in -- push ]
+
+fetch or pull the latest code ------------------
+
+svn , tfs (microsoft), cvs 
+
+*********************************************************************************
+git 
+
+Linus Trivold (Linux)
+-----------------------------------------------------------------------
+github -- open public -- 
+microsoft (vsts) 
+bitbucket/stash (atlassian) --private 5 users 
+---------------------------------------------------------------------
+
+cmder windows 
+
+iterm mac 

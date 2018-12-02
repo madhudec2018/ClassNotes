@@ -1,0 +1,142 @@
+HTML -- HyperText MarkUp Language
+
+1) Where does the html file exist?
+2) Let's say user entered some website, example: www.cnn.com, which html file is rendered
+3) What will be there in the html 
+4) How does browser call for this html file
+5) How does it render the html file
+
+*******************************************************************************************************************************
+
+web application -- advance level of web page --------------
+-------------------------------------------------------------------------------------------------------------------------------
+
+
+html file 
+
+filename.html -- once you have written where it should be saved 
+
+----> webpage --> url 
+
+------------------------------------------------------
+Server --> What is Server --> Serves some thing 
+
+Server 
+
+Physical Server 
+	--> 
+Logical Server 
+    --> 
+-------------------------------------------------------------------------
+IBM Server 
+Sun Solaris Server --> machine hardware 
+
+facebook --> physical Server --> millions of users 
+High configuration machine (computer)
+
+buy (cloud makes it cheaper , leasing )
+aws (amazon cloud, google cloud) 
+5$
+----------------------------------------------------------------------------------
+cluster -- group of servers 
+---------------------------------------------------------------------------
+Logical Server -->
+
+database servers
+application server 
+
+--Vendors have created Software, installed in this physical server --> accessible to outside world 
+-- database -- file system, txt files 
+
+--saving and retrieving data (create,insert)
+Relational databases -- Oracle db, Microsoft Sql server db, Sybase, My Sql, PostGres sql  
+No-Sql databases -- Mongodb, elastic search
+
+-- database 
+
+Oracle db Server -- Logical Server 
+
+serving database 
+---
+
+application server --> serving web pages/web services 
+software vendors -- softwares 
+Apache Tomcat, IIS, node 
+---
+url 
+html file 
+application server --> html 
+
+---
+
+home.html 
+
+url and application server 
+------------------------
+
+ipaddress 
+talk one machine in to another machine -- ipaddress 
+
+home address 
+
+apartment community -- 
+
+building -- 100 Main Street, city, ks, 60000 
+Apt number: 
+------------------------------------------
+
+Port Number 
+listens on one port 
+0- 655311
+8000,9000
+22 - ftp  
+8080 - web server 
+----
+
+ipaddress: , start -- listening on particual port ------------------
+
+DNS (Domain Name Server)
+
+- domain name 
+
+chandrakanth.com 
+-- buy a domain chandrakanth.com -- godaddy   -- ICANN
+application server 
+Register DNS Entry here -->
+table 
+domainname -- ipaddress
+ 
+-----------------
+
+ipaddress and port number 
+
+http -- 80
+https - 443 
+https -- http over ssl (encrypted) 
+--
+Request -- Request Header/ Request body
+--  Response Headers/ Response body 
+
+Response -- Status  200 
+404 
+
+200  Success
+3xx -- Redirect
+400 --  -- Errors -- Client (browser reqest wrong)
+500 -- Server Error  
+500- 501,502
+-----------------------------------
+
+index.html 
+index.jsp
+index.php
+default.aspx 
+
+
+render 
+--- paints on the screen 
+-------------------------------------------------------------------------------------------------
+
+
+
+

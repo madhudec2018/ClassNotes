@@ -1,0 +1,67 @@
+
+
+
+
+***********************************************
+you have to connect central repo to your local 
+
+1) git clone https://github.com/madhudec2018/ClassNotes.git
+
+2) master 
+
+---
+(copy of the master branch at the time you created the branch)
+you create your own branch 
+
+git checkout -b branchName
+
+git checkout master 
+git pull 
+------------------------
+git checkout feature/
+git merge master 
+------------------------
+
+
+
+
+
+when ever you add or change some thing
+1) add it to Staging area 
+   
+   git add fileName
+   git add .
+   git add file1 file2 
+
+
+2) commit 
+  --save your work to your local repo
+
+3) git push 
+    git push -u origin branchName  (if you dont have branch in the central repo)
+    git push  (if you already have a branch simply use this)
+
+Madhu 
+
+
+ //git is a distributed version control 
+
+  //central repo -- origin (cloud) server (github) 
+
+   public repo 
+   private repo 
+
+//local machine 
+
+//svn, tfs -- centralized version control systems 
+
+--------------------------------------
+
+git pull (you )
+
+---------------------------------------------------------------------------------------------------------------------
+master/develop 
+
+1) master 
+
+code-review process 
