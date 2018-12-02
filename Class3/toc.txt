@@ -1,0 +1,45 @@
+1) intro to doctype
+2) basic tags
+3) h1 - h6
+4) p
+5) br 
+6) img
+7) a
+
+8) list elements 
+  a) ol li 
+  b) ul li
+  c) dl dt dd 
+9) div block level 
+10) span inline 
+11) class attrib, id attrib 
+
+**********************************************************************************************************************
+
+HTML (HyperText Markup language)
+
+--> markup language 
+--> tag based language 
+--> pre defined set of tags 
+
+--doctype 
+
+start the tag 
+<tagName> -- start of the tag 
+
+</tagName> -- end of the tag 
+
+self closing tags 
+
+<meta /> 
+
+
+<meta>
+
+</meta>
+
+html element or html tag 
+
+text elements 
+h1 - h6 
+
