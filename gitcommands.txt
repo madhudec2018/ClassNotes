@@ -1,0 +1,21 @@
+1) git clone https://github.com/madhudec2018/ClassNotes.git
+
+******************************** Localy 
+2) git checkout -b feature/brName 
+-- git status
+3) do your changes 
+-- git status
+4) git  add .
+   git add fileName 
+   git add file1 file2   
+-- git status
+5) git commit -m "message "
+-- git status
+**************************
+6) git push -u origin feature/brName 
+   git push 
+-- git status
+  
+  ************************
+
+  crate a pull request to merge 

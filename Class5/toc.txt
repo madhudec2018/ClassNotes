@@ -1,0 +1,9 @@
+  1) Group Selector 
+  2) Specificity https://css-tricks.com/specifics-on-css-specificity/
+  2) pseudo class selectors 
+   a)  (link)
+   b) visited 
+   c) hover 
+   d) active 
+  3) table (nth-child)
+  4) Box Model 

@@ -1,0 +1,29 @@
+1) input
+2) select
+3) table 
+4) button
+
+
+5) CSS 
+    a)Universal Selectors
+    b)Html Element Selectors
+    c) Id Selector
+    d) class Selector 
+     Relationship Selectors 
+    e) Descendent Selector 
+    f) child selector
+    g) next sibling selector (~)
+    h) next sibling immediate selector (+)
+    i) Attribute selector 
+       -- equal to =
+       -- starts with ^=
+       -- ends with $=
+       -- contains with (*=)
+    j) Group Selector 
+    k) pseudo class selectors (link)
+    l) visited 
+    m) hover 
+    n) active 
+
+
+https://css-tricks.com/specifics-on-css-specificity/
