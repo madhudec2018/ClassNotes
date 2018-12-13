@@ -1,0 +1,62 @@
+//npm install -g http-server
+
+//Object 
+// Collection of Key Value Pairs 
+
+var Person = {
+  name : 'Peter',
+  age : 40  ,
+  dob: '10/10/1998',
+  dynamicVar : 300
+}
+
+var Manager = {
+    name : 'John',
+    city: ''
+}
+//10 -- number literal
+
+//get to value of key from an object there are two ways 
+//1) Using . operator
+//2) Using [] operator
+//Person.dob 
+var keyName = 'dob';
+keyName = 'age';
+
+Person[keyName] 
+var age = 100;
+Person[age]//Person['100']
+//undefined;
+Person.age //40
+
+var dynamicVar = 'age';
+Person[dynamicVar];//key called age 
+
+Person.dynamicVar ;// 
+Person.age 
+Person['age']
+
+//city.location 
+
+//
+//city[bhargav_key]
+
+//read or get the key value 
+//2) set the value to  a key 
+
+//. []
+city.budget = '3 million';
+city.name = 'Windsor';
+
+//city[bhargav_key] = 'Seattle'
+
+
+var chandra = 'Beautiful';
+
+//3 delete the key/vlaue from object
+
+delete city.population
+//var key = 'location';
+//delete city[key];
+
+console.log(city.population);//undefined

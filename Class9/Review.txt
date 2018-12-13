@@ -1,0 +1,8 @@
+
+var str = 'My country is India';
+//oun 
+str.length = 19
+
+
+str.indexOf('India') > -1
+
