@@ -1,0 +1,19 @@
+
+1) null, undefined (undefined)
+2) typeof 
+3) Object
+  a) get a value of a key
+  b) set a value of a key
+  c) delete a key from object
+4) Window Object
+5) Function Declaration
+
+null and undefined 
+
+
+var a;
+console.log(a);//undefined 
+var arr = [];
+arr[0] ; //undefined 
+
+// typeof null ==> object 
