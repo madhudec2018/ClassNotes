@@ -1,0 +1,5 @@
+1) Function Expressions and Hoisting 
+    functions as first class objects
+    (assigned, passed around and called)
+2) Multiple Functions in a script
+3) Passing Functions
