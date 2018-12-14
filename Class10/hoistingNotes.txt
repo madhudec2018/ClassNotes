@@ -6,7 +6,8 @@ parsing (variable and function declaration)
 when it sees variable or function, it creates memory for them 
 // if it is a variable --> it just assigns memory for that but not store in there 
 
-
+ //*  if it is a variable --> if already assigned , it will not assign memory again,
+ //*   if it is new variable --> it just assigns memory for that but not store in there 
 
     ________
    |        |
@@ -28,7 +29,7 @@ when it sees variable or function, it creates memory for them
 var name;
 console.log(name);//undefined 
 
-//if it is function declaration, it assigns memory and also function in to it 
+//if it is function declaration, it assigns memory and also stores function in to it 
 
     ________
    |   -----|--->  function sum(a,b,c){ return a + b +c; }

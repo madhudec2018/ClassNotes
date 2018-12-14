@@ -1,0 +1,8 @@
+1) Hoisting inside Functions
+2) Named Function Expressions 
+3) Importance of Semi collection
+4) hasOwnProperty 
+5) functions inside Objects
+
+--
+if time --- try catch 
