@@ -1,0 +1,45 @@
+
+1) what is typeof in javascript
+
+A)It defines the variable
+B)It gives keys in the object
+C)It tells the value contained in that variable
+D)It gives the datatype of the object
+
+------------------------------
+Bhargav         --> A
+Rohit           --> A
+ChandraKanth    --> D 
+Tarak           --> D 
+
+----------------------------------------------
+typeof undefined - undefined 
+typeof null -- Object (null clear for garbage collection) 
+typeof NaN -- Number 
+what is max number -- 
+what is min number
+
+
+2) What is the output of this function 
+console.log(sum(10,20)); //undefined 
+
+function sum(a,b){
+    a + b;
+    //return undefined;
+};
+
+
+
+3) What will the following print 
+
+if(add(3,4) === "7"){
+console.log('Sum is Equal to 7');
+}else{
+console.log('Sum not Equal to 7');
+}
+
+function add(x,y){
+return x + y;
+}
+
+7 === '7'

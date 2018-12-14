@@ -1,0 +1,37 @@
+//intrepreted 
+// 1) parsing
+// 2) execution (line by line)
+
+parsing (variable and function declaration)
+when it sees variable or function, it creates memory for them 
+// if it is a variable --> it just assigns memory for that but not store in there 
+
+
+
+    ________
+   |        |
+   |________|
+
+   name 
+
+    ________
+   |        |
+   |________|
+
+   age 
+
+    ________
+   |        |
+   |________|
+   add 
+
+var name;
+console.log(name);//undefined 
+
+//if it is function declaration, it assigns memory and also function in to it 
+
+    ________
+   |   -----|--->  function sum(a,b,c){ return a + b +c; }
+   |________|
+
+   sum 
