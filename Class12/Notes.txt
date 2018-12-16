@@ -1,0 +1,39 @@
+function foo(){
+
+    try {
+   
+    return bar(); 
+    var bar = function() {
+        return 3;
+    };
+    var bar = function() {
+        return 8;
+    };
+   } catch(error){
+       console.log('Error occurred');
+   } finally {
+       console.log('Task Completed');
+   }
+}
+
+function foo(){
+
+    try {
+        var bar = function() {
+            return 3;
+        };
+      
+         return bar(); 
+        
+   } catch(error){
+       console.log('Error occurred');
+   } finally {
+       console.log('Task Completed');
+   }
+
+   console.log('last line of  the function ');
+}
+console.log('Hello Before Executing');
+console.log(foo());
+console.log('Hello After Executing');
+//Use try catch -- normally 

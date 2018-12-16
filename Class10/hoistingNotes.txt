@@ -36,3 +36,21 @@ console.log(name);//undefined
    |________|
 
    sum 
+
+//var 
+//function declarations
+//functions expressions 
+var a;
+function add..
+var sub;
+console.log(a);//undefined
+console.log(add);//
+console.log(sub);//undefined;
+var a = 10;
+function add (a, b){
+   return a + b;
+}
+
+var sub = function a,b, c){
+   return a + b + c'
+}

@@ -1,5 +1,23 @@
 
+function add(a,b,c){
 
+    return sum(a,b);
+    var sum = function(a,b){
+        return a + b;
+    }
+
+    function sum(a,b) {
+        return 10 + a + b;
+    }
+
+    var sum = function(a,b){
+       return 20 + a + b;
+    }
+}
+
+add(1,4);
+
+//
 function sum(a, b, c, d) {
 
 
