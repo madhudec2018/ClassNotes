@@ -1,0 +1,85 @@
+Coding
+
+1) Find duplicate 
+Given an array of integers of size n. Each number is present at least once.
+You need to find and return that duplicate number present in the array.
+Assume, duplicate number is always present in the array.
+Sample Input:
+var num = [0, 7, 2, 5, 4, 7, 1, 3, 6]
+Sample Output: 7
+**********************************
+2) Intersection in two arrays 
+Given two random integer arrays, print their intersection. 
+That is, print all the elements that are present in both the given arrays.
+Input arrays can contain duplicate elements.
+Sample Input 1 :
+var arr1 = [2, 6, 8, 5, 4, 3]
+var arr2 = [2, 3, 4, 7] 
+Sample Output 1 :
+2 
+4 
+3
+Sample Input 2 :
+var arr1 = [2, 6, 1, 2]
+var arr2 = [1, 2, 3, 4, 2]
+Sample Output 2 :
+2 
+2
+1
+**********************************************
+3) Combinations equal to value 
+Given an array of integers and given a value, find out all the pairs in the array whose sum is equal to the value 
+Sample Input
+var arr = [1,3, 6, 2, 5, 4, 3, 2, 4]
+var pairSum = 7;
+Sample Output
+1 6
+3 4
+3 4
+2 5
+2 5
+3 4
+3 4
+
+*********************************************
+
+
+
+Javascript 
+
+1) Write a JavaScript function to convert temperatures to and from Celsius, Fahrenheit. 
+
+formulae: c/100 = (f-32)/180 [ where c = temperature in Celsius and f = temperature in Fahrenheit ] 
+
+Example :
+60°C is 140 °F
+45°F is 7.222222222222222°C 
+
+2) Write a function to create camelCase string from  the words  passed 
+	
+	Camel case means the first letter of the first word is small but the next word first letter is Capital 
+
+	Examples of Camel Case:
+
+	testJavascriptCode
+	camelCase
+	myFriendsName
+
+
+Example Input/Output
+
+     input = ['test','javascript','code'] 
+     output = 'testJavascriptCode';
+
+     ['TeST','jAvaScript', 'coDe']
+
+3) Write a function to calculate change with items cost and cash provided
+example:
+
+items = [1,6.5,5];
+cash = 20;
+//return 7.5
+function calculateChange(items,cash){
+	
+}
+

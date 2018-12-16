@@ -55,15 +55,15 @@ sum(1,2,3);//NaN
 
 
 
-function sum2(a, b, c, d) {
+function sum2(x,y,z,i) {
 
-    return add(a,b);
+    return add(x,y,z);
     
     function add(a,b){
         return  a + b;
     }
 
-    function add(a,b,c){
+    function add(a,b, c){
         return a + b + c;
     }
 
