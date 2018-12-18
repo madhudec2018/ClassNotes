@@ -1,0 +1,4 @@
+Agenda
+1) this -- call, apply, bind 
+2) Pass by Reference, Pass by value 
+3) Closure 
