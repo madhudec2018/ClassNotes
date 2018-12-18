@@ -4,8 +4,9 @@
 var stocks = [
     {symbol: 'MSFT', value: '300'},
     {symbol: 'GOOGLE', value: '600'},
-    {symbol: 'GOOGLE', value: '300'}
-    {symbol: 'APPLE', value: '700'}
+    
+    {symbol: 'APPLE', value: '700'},
+     {symbol: 'GOOGLE', value: '300'},
  
 ];
 
@@ -27,3 +28,22 @@ function deleteNthIndex(2){
 	
 }
 [10,5,40,50]
+
+
+--------------
+1
+2
+3---> break ( short circuit)
+4
+5
+6
+7
+8
+9
+10
+
+------------------
+
+O(N) 
+
+O(log N)
