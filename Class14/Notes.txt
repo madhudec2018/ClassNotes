@@ -1,0 +1,45 @@
+var total = 10;
+
+var sum = function(a,b){
+    total = 50;
+    return a + b;
+}
+
+sum(4,5);
+sum(2,3);
+
+//function and execute it in the same line 
+
+var sumResult = function(a,b){
+
+    //private 
+    //public
+
+    return a + b;
+}(4,5);
+console.log(sumResult);
+//Immediate Invocation Function Expression (IIFE)
+//to avoid cluttering global window object, to modularize we use IIFE
+
+   <!-- If you add script tags at the bottom, the rendering or display of html is not impacted
+     Performance Improvements, good for user experience 
+    -->
+
+    <script type="text/javascript">
+      
+    </script>
+
+    <script type="text/javascript">
+        
+    </script>
+
+   
+
+    <script type="text/javascript">
+       //  alert('Hello after h2');
+    </script>
+
+   
+    <script type="text/javascript">
+       // alert('Hello after P');
+      </script>

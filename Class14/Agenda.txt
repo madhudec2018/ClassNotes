@@ -1,0 +1,6 @@
+
+1) IIFE
+2) best place to add javascript 
+3) Dom
+4) access html elements through Dom
+5) jquery basic 
