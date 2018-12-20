@@ -31,7 +31,7 @@ function check(arry) {
 }
 console.log('*********************');
 /* Fourth Program */
-var num = [1, 6, 1, 3, 3, 2, 7, 2, 6];
+var num = [9, 7, 1, 1, 3, 3, 2, 7, 2, 6, 6, 8, 9, 1, 9, 12, 15];
 num.sort(function(a, b) {
   return a - b;
 });
@@ -45,12 +45,16 @@ function nonDup(nan) {
   for (var i = 1; i < nan.length; i++) {
     if (nan[i] !== nan[i - 1]) {
       count.push(nan[i]);
+    } else if (nan[i] === nan[i - 1] && nan[i] === nan[i - 2]) {
+      count = count;
     } else if (nan[i] === nan[i - 1]) {
       count.pop();
     }
   }
-  var res = count.pop();
-  console.log(res);
+  for (var i = count.length - 1; i > 0; i--) {
+    var res = count.pop();
+    console.log(res);
+  }
 }
 console.log('*********************');
 /* Fifth Program */
