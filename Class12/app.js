@@ -18,6 +18,7 @@ function Car(carName){
 
 Car.prototype = vehicle;
 var rohitCar = new Car('BMW');
+var bhargavCar = new Car('Audi');
 console.log(rohitCar.isDrivable);
 vehicle.isComfortable = true;
 //Object 
