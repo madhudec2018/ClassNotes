@@ -1,0 +1,68 @@
+  <div class="container well">
+        <h1 id="doctorsTitle">List of Doctors</h1>
+        <h2> List of Nurses</h1>
+         <h2> List of Staff</h1>
+    </div>
+    <script >
+     // jquery 1.x -- all browsers 
+     // jquery 2.x -- firefox, chrome 
+     // jquery 3.x -- lighter version 
+    </script>
+var element = document.getElementById('doctorsTitle');
+//element is instanceof HTMLElement
+
+element.style.color = 'red';
+
+var elements = document.getElementsByTagName('h2');
+//array of htmlelements
+
+for(var i = 0; i < elements.length; i++){
+    var h2Elm = elements[i];// instanceof HTMLElement
+    h2Elm.style.color = 'green';
+}
+//Jquery
+
+
+//selectors 
+$('#doctorsTitle').css('color','red') ;//JqueryElement
+//wrapper around htmlElement 
+$('h2').css('color', 'green');
+$('p').css('color', 'green');
+//JqueryElement 
+
+//innerText
+//textContent
+
+//class 16 notes 
+
+
+ // run the javascript after the html is rendered 
+        //document ready
+        function myDocumentReady(){
+            // when all the html elements are rendered (presented or displayed)
+            // this function is called 
+            var length =  $('p').length;
+             console.log('First Script Length: '+ length);
+        }
+        $(document).ready(myDocumentReady);
+
+        // anonymus function
+        $(document).ready(function(){
+            var length =  $('p').length;
+             console.log('First Script Length: '+ length);
+        });
+        // this is shortcut for document ready        
+        $(function(){
+
+        });
+        //func()
+        
+        function sum(a,b){
+            return a() + b;
+          //  return  a +b;
+        }
+
+       // sum(1,2);
+        sum(function(){
+            return 10;
+        }, 2);

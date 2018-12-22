@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body onload="OnPageload()"  >
+    <!-- Obstrusive way-->
+    <button onclick="BtnClick()">Click</button>
+
+    <script >
+        function BtnClick(){
+            alert('You clicked the button');
+        }
+
+        function OnPageload(){
+            // page load is similar to document.ready
+            // pageload, css,images to wait
+            // document.ready only waits for html to load
+            alert('Page Loaded');
+        }
+    </script>
+</body>
+</html>
