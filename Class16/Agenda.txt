@@ -1,0 +1,9 @@
+1) jquery 
+2) jquery element vs dom element 
+3) document.ready
+4) page load vs document.ready
+5) task App
+
+
+http://perrymitchell.net/article/element-innertext-textcontent-for-all-browsers/
+https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent#Differences_from_innerText
