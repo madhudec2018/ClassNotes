@@ -1,0 +1,29 @@
+// click event listener
+
+function handleClick(ev){
+ console.log('User clicked the button');
+}
+
+//UnObstrusive way
+
+var submitBtn = document.getElementById('submitBtn');
+
+//attach events 
+//type,function, capturePhase
+//register the event
+submitBtn.addEventListener('click',handleClick);
+
+
+ function handleClick(){
+        //ev -- jquery event 
+        // wrapper around browser event 
+       console.log('User clicked the button');
+    }
+
+    function handleKeyUp(ev){
+        //ev.which
+    }
+
+    //$('#submitBtn').bind('click',handleClick );
+    // shortcut for the click events 
+    $('#submitBtn').click(handleClick);

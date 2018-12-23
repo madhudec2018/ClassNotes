@@ -1,0 +1,3 @@
+1) CDN (Content Delivery Network)
+2) Events 
+3) Event propagation phase 

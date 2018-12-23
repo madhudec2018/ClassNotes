@@ -21,6 +21,18 @@ function onDocumentReady(){
 //     taskClicked.addClass('done');
 //    })
 
+
+// $('ul#taskContainer').click(function(ev){
+//   var taskClicked =  $(ev.target);
+//      // hasClass we are checking if done is already applied 
+//     if(taskClicked.hasClass('done')){
+//         taskClicked.remove();
+//         // remove vs detach 
+//     }else{
+//         taskClicked.addClass('done');
+//     }
+// });
+
       $('ul#taskContainer').on('click','li.task', function (){
         var taskClicked =  $(this);
         // hasClass we are checking if done is already applied 

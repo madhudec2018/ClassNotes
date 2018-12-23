@@ -1,0 +1,17 @@
+.red{
+    border: 10px solid red;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.green{
+    border: 10px solid green;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.blue{
+    border: 10px solid blue;
+    margin: 20px;
+    cursor: pointer;
+}
