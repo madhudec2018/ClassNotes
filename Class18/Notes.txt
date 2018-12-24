@@ -1,0 +1,51 @@
+// bind a event 
+    // registering the event 
+    // attaching event listener/hand;er 
+    var person = {
+        name : 'Peter'
+    };
+
+    //document.addEventListener
+    //document.removeEventListener
+
+    function firstClickHandler(){
+        console.log( person.name +  ' Submit Button Clicked');
+    }
+
+    $('#submitBtn').bind('click', firstClickHandler);
+    
+  //if you dont pass any function , it will remove all the click event handlers 
+// $('#submitBtn').unbind('click')
+
+    function secondClickHandler(){
+        console.log( person.name +  ' Second Submit Button Clicked');
+    }
+
+    $('#submitBtn').bind('click', secondClickHandler);
+
+    //destroy 
+    $('#submitBtn').unbind('click',firstClickHandler);
+    //on
+    //off('click')
+    // add memory for these functions 
+    // remove the function from the memory 
+    // 
+    // garbage collection : freeing up your memory 
+    // garbagecollector: at some time (frequently calling to free up any memory)
+   // person = null;
+
+    //any thing in event handlers -- it is not garbage collected easily 
+    // remove that event handler so that the references are also garbage collection 
+    // assigning memory to different variables and functions 
+    // Sticky Note --> Module 
+    //event handlers 
+
+    // garbage collection 
+
+    //10 event listeners 
+
+    // event handler 
+    //instances of module 
+
+    //Calculator in the Ui, clean up or release objects for garbage collection
+    // prone to more memory leaks
