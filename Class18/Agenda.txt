@@ -1,0 +1,4 @@
+1) events unbind
+2) performance of events bind on parent 
+3) Load Templates
+4) find and closest
