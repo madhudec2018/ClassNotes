@@ -1,0 +1,29 @@
+.task {
+  background-color: #f9e352;
+  height: 15rem;
+  width: 15rem;
+  list-style: none;
+  margin: 3rem;
+  float: left;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+p {
+  background: #f4c135;
+  margin: 0;
+  text-align: left;
+  border-bottom: 0.1rem solid #ba880b;
+  font-size: 100%;
+  padding: 0 0.2rem;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+#hey {
+  float: right;
+}
+i {
+  padding-left: 0.2rem;
+  cursor: pointer;
+}
