@@ -1,0 +1,39 @@
+package.json (node server side )
+
+//dependencies for the server side (libraries for server side javascript)
+
+
+//this is used for webpack (future)
+
+//
+NPM ==> Node Package Manager
+Maven --> Java (pom.xml)
+Nuget --> .Net (json)
+
+1) First Step Copy server folder and package.json 
+
+2) Npm install 
+// npm install  (npm i)
+ or 
+// Yarn install (download and install it )
+
+// all dependencies are downloaded to node_modules (git )
+
+----
+
+//2) npm run start  (npm start)
+
+
+
+//Serlialization 
+//data over network
+//convert your language to Data Transfer Format 
+javascript object to json (javascript to xml)
+JSON.stringify()
+
+
+//DeSerialization
+//convert to your language 
+JSON to javascript 
+//JSON.parse()
+

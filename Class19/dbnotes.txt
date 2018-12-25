@@ -1,0 +1,60 @@
+database is an application where data is stored 
+
+
+Database managing databetter -- they are easily searchable
+Relational Database --> Information will be stored in tables 
+tables will have relationships 
+
+Data Integrity --
+
+Customer Table 
+Id (Primary Key),FirstName, LastName, Address
+
+10
+
+
+Products Table 
+
+//Structured Query Language
+//SQL 
+
+--JSON format
+--JavaScript Object Notation 
+
+-- Data Transfer Format -- Transfer over the network 
+XML 
+xml for transfering data between one system to another system 
+tag based html 
+self closing is not allowed in xml 
+//schemas 
+
+
+<person>
+  <name>John</name>
+  <age>20</age>
+  <city>New York</city>
+</person> 
+---------------------- XML ------------------------------------------------------
+
+Douglas Crockford (Modern Guru) --Yahoo
+The Good Parts and Bad Parts 
+
+{
+    "name" : "John",
+    "age": 20,
+    "city" : "New York"
+}
+//JSON format 
+
+
+
+
+
+
+
+Orders Table 
+OrderId,
+Items: ,
+Invoice:,
+CustomerId: 1000,
+
