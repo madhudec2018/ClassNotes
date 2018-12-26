@@ -1,0 +1,35 @@
+h1 {
+    font-weight: bold;
+}
+
+.task {
+    width:250px;
+    border:1px solid	#FEF37F;
+    background:	#FEF37F;
+    padding:0px;
+    cursor: pointer;
+    margin:20px;
+    height:250px;
+    display:block;
+    float:left;
+}
+
+p {
+    font-weight: bold;
+    background: #FFD334;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    padding:3px 0px 3px 2px;
+}
+
+.imp {
+    background: #FEF37F;
+    border: 1px solid #FEF37F;
+    padding-top: 180px;
+    font-weight:700;
+    padding-left:10px;
+}
+
+.info {
+    padding-left:40px;
+}
+
