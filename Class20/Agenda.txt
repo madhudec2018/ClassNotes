@@ -1,0 +1,4 @@
+1) jquery data 
+2) Underscore or Lodash Library
+3) Modular
+4) Unit Testing
