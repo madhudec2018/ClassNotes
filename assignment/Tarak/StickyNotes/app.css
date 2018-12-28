@@ -1,0 +1,49 @@
+
+.note {
+  background-color: #FFD333;
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  min-width: 75px;
+  min-height: 200px;
+}
+
+#note-template {
+  display: none;
+}
+
+
+.note textarea {
+  background-color: #FFF380;
+  font-size: 16px;
+  height: 180px;
+  margin: 10px;
+  min-width: 200px;
+  min-height: 180px;
+  padding-top: 10px;
+
+}
+
+.note-head {
+  background-color: #FFD333;
+}
+
+.note-head-button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.note-head-button:hover {
+  border: solid 1px black;
+  color:black;
+}
+
+.new-button {
+  color: black;
+  float: left;
+}
+
+.delete-button {
+  color:black;
+  float: right;
+}
