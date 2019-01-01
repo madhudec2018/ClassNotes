@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous"
+  />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+        <div class="container">
+            
+      
+                <div class= "float-left">
+                <div class="card" style="width: 18rem;">
+                  <div class="card-body ">
+                    <h5 class="card-title">Currency Converter</h5>
+                    <h6 class="card-subtitle mb-2 text-muted one ">
+                        <select class ="from btn btn-primary">
+                            <option  value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                            <option value="CAD">CAD</option>
+                            <option value="MXN">MXN</option>
+                            <option value="JYP">JYP</option>
+                            <option value="USD">USD</option>
+                            <option value="INR">INR</option>
+                          </select>
+                    </h6>
+                    <p class="card-text bg-warning">
+                            <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text">$</span>
+                                      <span class="input-group-text">0.00</span>
+                                    </div>
+                                    <input type="text" class="form-control from" aria-label="Dollar amount (with dot and two decimal places)">
+                                  </div>
+                                  <h6 class="card-subtitle mb-2 text-muted"><select class ="to btn btn-primary">
+                                    <option  value="EUR">EUR</option>
+                                    <option value="GBP">GBP</option>
+                                    <option value="CAD">CAD</option>
+                                    <option value="MXN">MXN</option>
+                                    <option value="JYP">JYP</option>
+                                    <option value="USD">USD</option>
+                                    <option value="INR">INR</option>
+                                  </select></h6>
+                                  <div class="input-group">
+                                    <input type="text" class="form-control to" aria-label="Dollar amount (with dot and two decimal places)">
+                                    <div class="input-group-append">
+                                      <span class="input-group-text">$</span>
+                                      <span class="input-group-text">0.00</span>
+                                    </div>
+                                  </div>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="float-left">
+                <div class="card text-center flow-left" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title list"><span class="text-left">Today's Rates</span><span class="text-right"> 1 USD =</span></h5>
+                    
+                    
+                    <a href="#" class="btn btn-primary">Get Rates</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <script src = "https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"> </script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="programConverter.js"></script>
+  </body>
+</html>

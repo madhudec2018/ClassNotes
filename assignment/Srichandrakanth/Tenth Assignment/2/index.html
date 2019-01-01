@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <h1>Calculator</h1>
+      <button id="btn1" class="btn btn-outline-primary addnewCalc">
+        Get Calculator
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="myModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="myModalLabel"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content" id="ok">
+            <div class="modal-header">
+              <button
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              ></button>
+              <h4 class="modal-title" id="myModalLabel"></h4>
+            </div>
+            <div class="modal-body">
+              <div class="calculatorsContainer"></div>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-default" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.4/lodash.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+    <script src="functionalProgram.js"></script>
+    <script src="program.js"></script>
+  </body>
+</html>

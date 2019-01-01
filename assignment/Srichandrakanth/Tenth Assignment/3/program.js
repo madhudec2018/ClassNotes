@@ -1,0 +1,20 @@
+$(function() {
+  $('#btn1').click(function() {
+    var calc = new Calculator();
+    // reset modal if it isn't visible
+    if (!$('.modal.in').length) {
+      $('.modal-dialog').css({
+        top: 0,
+        left: 0
+      });
+    }
+    $('#myModal').modal({
+      backdrop: true,
+      show: true
+    });
+
+    $('.modal-dialog').draggable({
+      handle: '.modal-header'
+    });
+  });
+});
