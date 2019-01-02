@@ -1,0 +1,29 @@
+var url = 'http://free.currencyconverterapi.com/api/v5/convert?q=CAD_INR&compact=y'
+
+
+
+/********** /
+var customers = getCustomers();
+// 25 records //throw error 
+console.log(customers.length);
+function getCustomers(){
+    var customers; //undefined 
+    var requestConfig = {
+            url: 'http://localhost:8100/customers/',
+            method: 'get',
+            dataType: 'json',
+            timeout: 30000,//10-30 seconds 
+            success: function(data){
+               customers = data;
+            },
+            error: function(xhr,status,error){
+               
+            },
+            complete: function(){
+               
+            }
+     };
+    // 5 seconds 
+    $.ajax(requestConfig); //network request (service or server call ) //asynchronous 
+    return customers;
+}
