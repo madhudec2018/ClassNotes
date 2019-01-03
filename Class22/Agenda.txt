@@ -1,0 +1,77 @@
+1) get query string 
+2) postman
+3) post 
+
+***************
+
+Request the server 
+Responds with response  
+
+************
+1) forms
+2) css sprites
+3) unit testing 
+
+//Request 
+  -- Request Header --> browser information  
+  -- Request Body
+
+//Response 
+   --Response Header 
+   -- Response Body 
+
+Method: 'GET'
+url : 'endpoint'
+//additional data for the get request --> queryString 
+//queryString --> its in the url itself, so its public 
+//url?key=val&key2=val2&key3=val3&key4=val4
+
+// POST -- save data 
+// GET --> get data 
+
+
+Postman is a tool to check whether web service (service) is working 
+
+--endpoints 
+
+-- web services (web service description language) wsdl 
+-- Restful services 
+
+wsdl --> microsoft --> xml 
+localhost:8100/facebookservices/getCustomers/
+localhost:8100/facebookservices/saveCustomer/
+localhost:8100/facebookservices/createNewCustomer/
+localhost:8100/facebookservices/getActors/
+XML -- Data Transfer format -->(Json)
+
+/******************************/
+
+Restful web services Services (style of webservices)
+//url -- action 
+
+localhost:8100/customers/ 
+method /verb --> get -- getting the list of  data 
+
+localhost:8100/customers/
+method --> post --> create a new customer in the collection 
+
+
+localhost:8100/customers/10 --> update // new customer with id of 10 
+method --> put ==> create  a new customer 
+
+//UPSERT (update if data is there, insert if data is not there )
+
+localhost:8100/customers/7
+method --> patch -->  will not insert -- update the data 
+
+localhost:8100/customers/5
+method --> delete --> id --5 --> delete the customer 
+
+/***************/
+POST VS PUT (difference )
+PUT IS IDEMPOTENT Where as POST is not IDEMPOTENT 
+
+--> 2 TIMES --> N TIMES --> DATA WILL NOT BE ALTERED 
+WHERE AS POST --> Data will be altered, (duplicate records )
+
+GET , POST 

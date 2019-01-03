@@ -1,0 +1,53 @@
+1) Using callback function or not it is working the same, why do we need cb function 
+
+
+--> app.js is single file where we are handle request and response at the same file  
+
+
+--> multiple files, 
+
+customer.js --> service.js (ajax)
+
+actors.js --> service.js (ajax)
+
+//multiple files -- advantage and disadvantage 
+
+//50 people 
+
+
+//10 - 20 lines 
+
+
+200-1000 lines 
+
+//maintain 
+// extendability (scalability ) 
+// computer science is one of the complex things ever human beings has done 
+// minimize 
+
+//separation of concerns 
+
+//reuse that 
+
+function sum(x,y){
+    //50 lines 
+
+    return x + y;
+}
+
+var a = 10 + 5;
+var b = 5 + 1;
+
+// 1) you dont have to copy paste , as code will less it is easy to maintain 
+// 2)  a bug is there, we can fix at one place 
+//3) if you want to extend that function, you are extending at one place 
+
+
+
+
+ call back function 
+
+ //result 
+
+ // function 
+ // 
