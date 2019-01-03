@@ -1,0 +1,39 @@
+WEB Service API 
+
+-----Get --------------------------------
+1)Getting Customers (/customers/)
+   http://localhost:8100/customers/
+   
+   get 
+
+
+
+2)Getting Actors 
+   http://localhost:8100/actors/
+
+
+3) Getting Messages 
+ 	 http://localhost:8100/messages/
+
+4) Getting Tasks 
+    http://localhost:8100/tasks/
+
+    *************** POST 
+
+   
+   http://localhost:8100/customers/
+
+    DataContract = {
+      lastName,
+      firstName,
+      phone,
+      addressLine1,
+      addressLine2,
+      city,
+      state,
+      postalCode,
+      country,
+      salesRepEmployeeNumber,//optional
+      creditLimit
+
+    }
