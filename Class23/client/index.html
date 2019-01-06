@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms Example</title>
+    <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css" />
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+<body class="container well">
+    
+       <label id="counterText" > 0</label>
+
+        <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" onclick="onUpClick()" class="btn btn-secondary">UP</button>
+                <button type="button"  onclick="onDownClick()" class="btn btn-secondary">Down</button>
+                
+       </div>
+
+       <script type="text/javascript">
+         var counter = 0;
+         function onUpClick(){
+             counter++;
+             fillResult(counter);
+         }
+
+         function onDownClick(){
+            counter--;
+             fillResult(counter);
+         }
+
+         function fillResult(val){
+            var labelCounter = document.querySelector('#counterText');
+            labelCounter.textContent = val;
+         }
+       </script>
+
+<form >
+        <fieldset class="form-group">
+            <legend>Add New Customer</legend>
+        <!-- First Name | Text input-->
+        <div class="form-group row">
+            <label class="col-md-4 col-form-label" for="firstNameInput">First Name</label>
+            <div class="col-md-4">
+                <input id="firstNameInput" name="firstName" type="text" placeholder="" class="form-control input-md">
+                
+            </div>
+        </div>
+        
+        <!-- Last Name | Text input-->
+        <div class="form-group row">
+            <label class="col-md-4 col-form-label" for="lastNameInput">Last Name</label>
+            <div class="col-md-4">
+                <input id="lastNameInput" name="lastName" type="text" placeholder="" class="form-control input-md">
+                
+            </div>
+        </div>
+        
+        <!-- Phone | Text input-->
+        <div class="form-group row">
+            <label class="col-md-4 col-form-label" for="phoneInput">Phone</label>
+            <div class="col-md-4">
+                <input id="phoneInput" name="phone" type="text" placeholder="" class="form-control input-md">
+                
+            </div>
+        </div>
+    
+    
+           <!-- Address | Text input-->
+        <div class="form-group row">
+            <label class="col-md-4 col-form-label" for="addressCityOneInput">Address</label>
+            <div class="col-md-4">
+                <input id="addressCityOneInput" name="addressLine1" type="text" placeholder="" class="form-control input-md">
+                
+            </div>
+        </div>
+        
+        <!-- City | Text input-->
+        <div class="form-group row">
+            <label class="col-md-4 col-form-label" for="cityInput">City</label>
+            <div class="col-md-4">
+                <input id="cityInput" name="city" type="text" placeholder="" class="form-control input-md">
+                
+            </div>
+        </div>
+        
+     
+        
+        <!-- State | Text input-->
+        <div class="form-group row">
+            <label class="col-md-4 col-form-label" for="stateInput">State</label>
+            <div class="col-md-4">
+                <input id="stateInput" name="state" type="text" placeholder="" class="form-control input-md">
+                
+            </div>
+        </div>
+        
+       
+        
+        <!-- Country | Text input-->
+        <div class="form-group row">
+            <label class="col-md-4 col-form-label" for="countryInput">Country</label>
+            <div class="col-md-4">
+                <input id="countryInput" name="country" type="text" placeholder="" class="form-control input-md">
+                
+            </div>
+        </div>
+        
+        <!-- Postal Code | Text input-->
+        <div class="form-group row">
+            <label class="col-md-4 col-form-label" for="postalCodeInput">Postal Code</label>
+            <div class="col-md-4">
+                <input id="postalCodeInput" name="postalCode" type="text" placeholder="" class="form-control input-md">
+                
+            </div>
+        </div>
+    
+    
+         <!-- Credit Limit | Text input-->
+         <div class="form-group row">
+            <label class="col-md-4 col-form-label" for="creditLimit">Credit Limit</label>
+            <div class="col-md-4">
+                <input id="creditLimit" name="creditLimit" type="text" placeholder="" class="form-control input-md">
+                
+            </div>
+        </div>
+    
+    
+        <!-- Save Button | Button -->
+    <div class="form-group row">
+      
+        <div class="col-md-4">
+            <button id="saveButton" name="savebutton" class="btn btn-primary">Save</button>
+        </div>
+    </div>
+    
+        </fieldset>
+        </form>
+        
+</body>
+</html>

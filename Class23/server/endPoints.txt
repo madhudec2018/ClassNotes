@@ -28,7 +28,7 @@ WEB Service API
       firstName,
       phone,
       addressLine1,
-      addressLine2,//?optional
+      addressLine2,
       city,
       state,
       postalCode,
