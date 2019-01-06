@@ -16,7 +16,7 @@ var nodeCleanup = require('node-cleanup');
 
 var fileUpload = require('express-fileupload');
 
-portfinder.basePort = 8200;//1000-65535
+portfinder.basePort = 8100;//1000-65535
 //multiple servers 
 portfinder.getPort(function (err, port) {
       if (err) {

@@ -1,0 +1,147 @@
+1) forms
+2) css sprites
+3) unit testing 
+
+/** SPA **/
+
+
+***2005 ****/
+pre 2005 --> (ajax)
+
+form -- network request when we click on submit button inside the form 
+
+
+// dotnet --> asp.net  (active server pages)
+//java --> jsp (java server pages)
+get --> html (table records) table (html) will be constructed in server side 
+
+
+2009 ()
+
+
+2005 --- 
+network request come to server 
+
+--> register.aspx --> 
+           customers 
+           table 
+
+  html (table tr of all customer data )  <--
+
+  /****/
+  ajax 
+
+*** SEO **************
+// WWW.EXAMPLE.COM --> asp.net 
+// server -- search engine --> return static html //dynamic html 
+
+// refreshing part of the page, not the whole page  (ajax)
+// form -- it refreshes the whole page 
+
+// SPA (GMAIL, FACEBOOK) --> Single page applications 
+
+
+XMLHTTPREQUEST (fetch) -- native javascript method 
+
+$.ajax (friendly methods )
+$http 
+
+
+//typescript 
+
+///////
+Network ---> HTTP protocol 
+
+http -- tcp/ip (network computer engineering) -- > network 
+ web sockets // sockets -- chat -- slack 
+https  --> http over ssl (secure socket layer) --> encrypted over the network 
+//server -- hacks 
+
+  hello to tarak 
+  43wer389 --> hello 
+
+-----------------
+
+certifcate issue 
+
+
+
+--internet 
+
+-- more files -- download--
+
+javascipt -- server 
+css 
+100 files -- file size --> 1 kb  -- 100 kb 
+         -- 100 milli seconds 
+            --- LIMIT -- 20 
+         --10 to 12 seconds 
+
+1 file -- 100 kb -- 4  -- network  seconds (less time to download)
+
+images 
+
+--- button 
+-- flags -- image -- 400 files 
+-- css sprites -- 1 image download 
+
+
+bundled -- 1000 files 
+
+4 files 
+
+
+
+//bitmap - images 
+//scalar vector graphics  -- vector mathematics -- drawing 
+
+//what are unit testing 
+//how do we unit test in javascript 
+
+--> Unit Tests are first line of defense for developer 
+
+--> production or go live  --> 
+
+
+--> 1) develop or building the code 
+         --> move our code to development server 
+
+--- dedicated physical servers (cloud, rack space)
+ -- windows 2018 server operating system --
+ -- linux opearting systems 
+
+ //dev.facebook.com
+
+Operations or Dev Operations 
+// code -- every day -- 4 a.m. -- development server -- build 
+
+---------------------------------
+java -- jars -- jvm or jre 
+dot --  dll -- dot net 
+
+//2) Code is good enough for testing -- 
+   Deciated Quality Assurance (QA) -- 2 to 3 weeks 
+   -- code -- development to QA server 
+qa.facebook.com
+
+// UAT user acceptance testing 
+
+//3) 3 or 4 months -- production 
+//users 
+www.facebook.com
+
+-----bugs 
+
+//1 million users --> 7 users 
+---> unit tests are your best friend 
+
+// unit testing -- unit of code 
+
+//Unit Test Frameworks 
+-- karma (test runner )
+// Jasmine 
+    // Qunit 
+    // sinon 
+    // mocha
+// Jest (react)
+
