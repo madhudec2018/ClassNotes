@@ -135,7 +135,7 @@ www.facebook.com
 //1 million users --> 7 users 
 ---> unit tests are your best friend 
 
-// unit testing -- unit of code 
+// unit testing -- unit of code cd ..
 
 //Unit Test Frameworks 
 -- karma (test runner )

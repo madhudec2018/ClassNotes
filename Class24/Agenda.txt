@@ -1,0 +1,25 @@
+1) Promises
+2) Frameworks
+
+// House 
+
+
+//1) buy the land, you have to construct house by using bricks 
+// first way -- jquery 
+
+//react 
+
+//2) buy the land, construct the house by laying foundation or pillars (frames), along the foundation they will construct walls 
+ // you have to follow the pillars or frames, with in the boundaries of the frames we can construct walls 
+
+--> angular (frameworks like) --> 
+--> (react + redux / mobx)
+--> bootstrap (css)
+
+//3) buying a constructed house, builder 
+    // SAP, Oracle Apps, dynamics 
+    //car manufacturing -- > manufacturing/ purchasing / order 
+
+    //generic solution 
+    //reuse for different solutions 
+    
