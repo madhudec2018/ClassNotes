@@ -1,0 +1,56 @@
+
+/*****
+Ryan Dahl: html,css.js -- browser 
+ serverside : java, c#, python (high level engines)
+                  cpp -- game engines, low level --> devices 
+ database : sql mysql, sql server e.t.c 
+ three-tier architecture 
+
+ Client ==> Application Server ==> Database Server 
+          Web Services          --> sql 
+ Javascript -- is Non blocking for i/o operations 
+  
+---
+  Java -- Sprint MVC
+  C# -- Web Api 
+  Node  (expressjs)
+ environment -- server side javascript 
+
+Node: Node is a platform (ecosystem) , server side platform, built on Chrome browser's javascript engine and made an environment where you can develop 
+server side applications, windows applications (console)
+
+1) connect db --> call back function 
+2) do some operation 
+3) Single Threaded Environment -- threads (Scalable and Fast)
+
+******************************************************************/
+Open Source --> contributed freely by the community 
+
+
+REPL NODE --> try 
+
+ctrl+c or .exit 
+*******************************************
+there is a package manager which will be shipped with you 
+--download libraries or dependencies of your project 
+-- Node Package Manager (NPM)
+
+//*******************
+LINUX -- FREE 
+
+LINUS TRIVOLD --> OPERATING SYSTEM -
+FREE OPEN SOURCE -- SYSTEM -->
+--> SAVE HIS CODE -- VERSION CONTROL SYSTEM -- SVN, CVS 
+--> he developed -- git 
+
+MICROSOFT -- THOUSANDS OF DEVELOPERS -- WINDOWS 10 
+
+fork == plunkr -- > copy 
+
+---> support 
+//license  (MIT license )
+// gpl license --> conditions legal -> less gpl 
+
+--GROUp or list all your dependencies (package.json)
+
+npm init -y 

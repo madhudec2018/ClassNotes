@@ -1,0 +1,12 @@
+1) node 
+2) node repl, node file.js 
+3) typescript node
+4) tsun repl 
+5) @angular/cli
+6) ng new yourAppName
+7) ng serve
+8) dependencies import 
+9) Components --selector, templateUrl, styleUrls
+*************
+10)  ngFor, inputs (Time permits)
+

@@ -1,0 +1,13 @@
+typescript --> superset of Javascript 
+
+Language written as a superset of Javascript 
+
+javascript -- error prone --> server side 
+
+microsoft mvp --> [c#, vb(dotnet)], java --> 
+
+compiles to javascript 
+strictly typed language 
+
+ts --> es5 or es6
+   --> old browsers 
