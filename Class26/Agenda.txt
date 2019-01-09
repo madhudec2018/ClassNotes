@@ -1,0 +1,15 @@
+Typescript
+
+1) enum
+enum Month {January, February, March};
+2) Any
+3) void
+4) class
+5) constructor 
+
+Angular
+
+1) For Loop
+2) News Rating
+3) build using now 
+
