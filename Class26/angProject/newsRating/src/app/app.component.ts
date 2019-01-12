@@ -30,5 +30,8 @@ export class AppComponent {
    return false;
  }
 
+ identify( index, item) {
+  return index;
+ }
 }
 

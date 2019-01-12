@@ -1,0 +1,8 @@
+1) Service (Injectable)
+//provide, useclass ,usevalue
+2) Directive
+3) Template Driven Forms
+ngForm
+ngModel (two way databinding)
+//premise for the observables 
+
