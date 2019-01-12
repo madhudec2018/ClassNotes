@@ -1,4 +1,5 @@
 
+
 // let month = 'january';
 
 // const seondMonth = 'february';
@@ -59,6 +60,49 @@ john.greet();
 // typings 
 
 //$('h1').addClass('container')
+
+export class Car {
+
+    private age = 40;
+   
+    constructor() {
+   
+    }
+
+    // set myAge(val){
+    //     this.age = val;
+    // }
+
+    // get myAge(){
+    //     return this.age;
+    // }
+
+    // getAge(){
+    //     return this.age;
+    // }
+
+    // setAge(age){
+    //      //age is number is between 20 and 40;
+    //      if(age > 20 && age < 40){
+    //          this.age = age;
+    //      }
+    // }
+   
+   
+   }
+   
+   
+   const firstCar = new Car();
+  // (<any> firstCar).age = 100;
+  // console.log((<any> firstCar).age);
+   //console.log(firstCar['age']);//
+   //firstCar.myAge = 100;
+   //firstCar.age = 100;
+   //firstCar.setAge(30);
+   //const age = firstCar.getAge();
+   // set or change 
+   //console.log(age);
+
 
 
 

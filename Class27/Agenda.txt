@@ -1,0 +1,17 @@
+1) outputs to components
+2) in built directives 
+
+Agile or Scrum methodology
+
+//
+Angularjs --old 
+Angular 1 // different version 
+
+
+//2015 -- Angular 2/4/5/6
+
+directives 
+
+* --> structural directive 
+ngFor
+ngClass

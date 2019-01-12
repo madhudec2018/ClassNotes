@@ -1,0 +1,23 @@
+
+<div class="jumbotron"  *ngIf="userLoggedIn == false" >
+<login (loginCompleted)="onLogin($event)"> </login>
+</div>
+<div *ngIf="userLoggedIn == true" class="jumbotron">
+  <h1> Hey {{profile?.firstName + " " +  profile?.lastName }}</h1>
+
+  <h3 myTextHighlight > Hey {{person?.name}}  </h3>
+  <!-- [ngModel]="person.name" in input -- we are binding value of person.name in to input (one way data-binding)
+   Model -- view
+  -->
+  <input type="text" [ngModel]="person.name"  />
+  <!-- [(ngModel)] two way data binding -- view -- model -- model -- view-->
+  <!-- <input type="text" [ngModel]="person.name"  (ngModelChange)="updateModel($event)" /> -->
+  <input type="text" [(ngModel)]="person.name"  />
+  <h1 myTextHighlight >List of Products, Please select one</h1>
+
+
+
+  <h4>You have Selected {{selectedProduct?.name}}</h4>
+
+  <product-list (productSelectedEvent)="productSelected($event)" [productList]="productList" ></product-list>
+</div>

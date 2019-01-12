@@ -1,0 +1,47 @@
+
+<table class="table table-hover table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Product Code</th>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+      </tr>
+    </thead>
+    <!-- (mousemove)="onMouseMove() " -->
+    <tbody >
+        <!-- <product-row></product-row> -->
+        <!-- [class.table-active]="product == selectedProduct" -->
+       <tr class="table-row"  [ngClass]="product.dynamicClassObj"
+            *ngFor="let product of list; let index = index"
+           (click)="productSelected(product)">
+         <td>
+           {{index + 1}}
+         </td>
+         <td>
+             {{product.code}}
+         </td>
+
+         <td>
+             {{product.name}}
+         </td>
+
+         <td  >
+            <span  >
+                 <span *ngIf="product.price == 50" [ngStyle]="{'color':'red'}">
+                    {{product.price}}
+               </span>
+               <span *ngIf="product.price != 50">
+                  {{product.price}}
+               </span>
+            </span>
+            <span [ngSwitch]="product.price">
+                <span *ngSwitchCase="'50'" class="fa fa-star" ></span>
+                <span *ngSwitchCase="'80'"  class="fa fa-adn"></span>
+                <span  *ngSwitchCase="'100'" class="fa fa-adjust"></span>
+            </span>
+         </td>
+
+       </tr>
+    </tbody>
+  </table>
