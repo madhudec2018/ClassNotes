@@ -1,0 +1,40 @@
+1)  Angular Forms
+a) from Group
+b) Form Control
+c) Form Builder
+d) Validations
+
+// cache 
+// local Storage 
+// offline 
+..
+
+ReactiveForms 
+
+
+//service -- fetching data 
+ (http )
+
+ component -- service.getCustomers():Observable
+service --
+ retry(3);
+ .catch((error)=>{
+     
+ });
+
+
+ service.getCustomers()
+ .subscribe((data) =>{
+  this.customers = data;
+ })
+
+ /********************
+
+ TemplateDrivenForms
+
+ ngForm is automatically attached to form element -- FormsModule 
+
+ ReactiveForms 
+
+  FormGroup and FormControl
+ [formGroup]
