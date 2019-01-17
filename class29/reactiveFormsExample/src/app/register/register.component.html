@@ -1,0 +1,82 @@
+<form [formGroup]="registerFormGroup" (ngSubmit)="onSubmit(registerFormGroup)"  >
+   <legend>Register your Account</legend>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email"  [formControl]="registerFormGroup.controls['email']" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email">
+      <i *ngIf="registerFormGroup.controls['email'].valid"   class="fa fa-check valid" ></i>
+         <div *ngIf="!registerFormGroup.controls['email'].valid && registerFormGroup.controls['email'].dirty  && registerFormGroup.controls['email'].hasError('required')"  class="alert alert-danger" role="alert">
+          Email is Required
+        </div>
+
+        <div *ngIf="!registerFormGroup.controls['email'].valid && registerFormGroup.controls['email'].dirty && registerFormGroup.controls['email'].hasError('email')"  class="alert alert-danger" role="alert">
+            Email Format should have @ and . in the email
+         </div>
+
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" [formControl]="registerFormGroup.controls['password']"  class="form-control"  placeholder="Password">
+
+      <div *ngIf="!registerFormGroup.controls['password'].valid && registerFormGroup.controls['password'].dirty  && registerFormGroup.controls['password'].hasError('required')"  class="alert alert-danger" role="alert">
+          Password is Required
+      </div>
+
+      <div *ngIf="!registerFormGroup.controls['password'].valid && registerFormGroup.controls['password'].dirty  && registerFormGroup.controls['password'].hasError('firstAlphaError')"  class="alert alert-danger" role="alert">
+           First Character should be Alpha
+      </div>
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<div class="container">
+
+     <h4> Form Group Details</h4>
+     <div class="row">
+      Touched: {{registerFormGroup.touched}}
+      </div>
+      <div class="row">
+      Dirty : {{registerFormGroup.dirty}}
+      </div>
+
+      <div>
+      Value: {{registerFormGroup.value | json }} <!--[Object Object]-->
+     </div>
+
+     <div>
+        Valid: {{registerFormGroup.valid}} <!--[Object Object]-->
+       </div>
+
+</div>
+
+
+<div class="container">
+    <h4> emailControl Details</h4>
+    <div class="row">
+     Touched: {{registerFormGroup.controls['email'].touched}}
+     </div>
+     <div class="row">
+     Dirty : {{registerFormGroup.controls['email'].dirty}}
+     </div>
+
+     <div>
+     Value: {{registerFormGroup.controls['email'].value }}
+    </div>
+
+    <div>
+       Valid: {{registerFormGroup.controls['email'].valid}}
+    </div>
+
+    <div>
+      errors : {{registerFormGroup.controls['email'].errors | json}}
+    </div>
+
+</div>
+
+
+Password
+
+<div>
+    errors : {{registerFormGroup.controls['password'].errors | json}}
+  </div>
