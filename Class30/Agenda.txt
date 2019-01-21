@@ -41,3 +41,11 @@ major bug (they have to make some significant bug fix or change)
 "bootstrap": "~4.1.0" --> 4.1.11 (download 4.1.11)
 "bootstrap" "^4.1.0" --> 4.5.0 (download latest major version)
 //"*" --> latest version -- "5.3.2"
+
+
+// pipes (sort )
+
+/***
+1) Two tables (customer )-->  drag and drop one record from one table to other 
+2) Youtube 
+3) Tables -- Pagination 

@@ -1,0 +1,9 @@
+<div class="form-inline">
+  <input #searchInput  type="text" class="form-control" placeholder="Search" >
+</div>
+
+
+
+<div class="card-deck">
+  <youtube-video *ngFor="let video of videos" [video]="video" ></youtube-video>
+</div>
