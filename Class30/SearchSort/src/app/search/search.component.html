@@ -1,0 +1,28 @@
+
+<div class="form-inline">
+  <input [(ngModel)]="searchValue" (ngModelChange)="onCustomerSearch()" type="text" class="form-control" placeholder="Search" >
+  <button class="btn btn-outline-success" >Search</button>
+</div>
+
+
+
+<table class="table table-bordered">
+
+   <thead>
+     <tr>
+       <th> #</th>
+       <th sortField="first" [customers]="customers" > First Name <i class="fa fa-sort"></i> </th>
+       <th sortField="last" [customers]="customers" > Last Name  <i class="fa fa-sort"></i> </th>
+       <th sortField="amount" [customers]="customers"  >  Order Amount <i class="fa fa-sort"></i> </th>
+     </tr>
+   </thead>
+
+    <tbody>
+       <tr *ngFor="let customer of customers; let i = index">
+          <td > {{ i + 1 }}</td>
+          <td> {{customer.first}}</td>
+          <td> {{customer.last}}</td>
+          <td> {{customer.amount}}</td>
+       </tr>
+    </tbody>
+</table>
