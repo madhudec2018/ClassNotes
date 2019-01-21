@@ -1,0 +1,43 @@
+
+pluralsight HTML5 
+Search and Sorting
+Static Data
+
+--> Session Storage vs Local Storage 
+nav, aside, article, section, footer 
+
+
+https://console.developers.google.com/apis/api/youtube.googleapis.com/overview?project=458219942292
+https://console.developers.google.com/apis/credentials?
+https://www.googleapis.com/youtube/v3/search?q=telugu&key=AIzaSyChgfFu3RpyHi1QjMLluR-x3WW9y87LJ5c&part=snippet&type=video&maxResults=50
+
+
+package.json
+
+"librayName": "4.3.1" --> exact version 
+
+"librayName": "^4.3.1" --> latest major version 
+
+versionNumber.MajorVersion.minorVersion 
+//1,2, 3, 4 
+
+4.0.0 --
+small bugs (minor) minor feature 
+4.0.1, 4.0.2, 4.0.3 , 4.0.7 (tags)
+major bug (they have to make some significant bug fix or change)
+4.1.0, 4.1.1
+4.2
+4.3 --> 4.3.1, 4.3.2
+
+4.3.2, 4.3.3  or 4.4 or 5 
+
+"librayName": "~4.3.1" 
+
+"librayName": "*" 
+//***
+"bootstrap": "4.1.0" --> download 4.1.0
+
+"4.1.*" --> (~) --> get the latest minor version 
+"bootstrap": "~4.1.0" --> 4.1.11 (download 4.1.11)
+"bootstrap" "^4.1.0" --> 4.5.0 (download latest major version)
+//"*" --> latest version -- "5.3.2"
